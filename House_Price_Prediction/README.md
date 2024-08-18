@@ -1,0 +1,12 @@
+# House Price Prediction Model
+I undertook a comprehensive project to predict house prices in the Bengaluru region, leveraging a rich dataset that included various attributes such as location, size, number of bedrooms, amenities, and more. This dataset, accessed through a CSV file, served as the foundation for the entire analysis. The project began with a detailed data preprocessing phase, where I meticulously handled missing values, addressed outliers, and performed feature engineering to transform raw data into a format suitable for machine learning. This preparatory work ensured that the dataset was robust and well-structured for the subsequent model training.
+
+The core of the project involved employing regression-based algorithms to predict house prices, as these models are specifically designed for continuous numerical outcomes. I divided the dataset into training and validation subsets to refine the model and optimize its performance. 
+
+This process included tuning hyperparameters to enhance prediction accuracy. To evaluate the model's effectiveness, I used metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE), which provided a clear picture of how well the model's predictions matched the actual house prices.
+
+In addition to the primary machine learning tools, I utilized Python libraries including Pandas, NumPy, Scikit-learn, Matplotlib, and Seaborn. Pandas and NumPy were instrumental in data manipulation and numerical analysis, while Scikit-learn facilitated model training and evaluation. 
+
+Matplotlib and Seaborn were employed to create detailed visualizations that enhanced data exploration and helped communicate insights effectively. After achieving satisfactory results, the model was deployed to make predictions on new, unseen data, ensuring that it could generalize well beyond the initial dataset.
+
+The project culminated in a comprehensive report that documented the entire process, from data collection and preprocessing to model training, evaluation, and final results. This report also highlighted key insights and observations about the factors influencing house prices in Bengaluru, offering valuable conclusions and recommendations based on the analysis.
